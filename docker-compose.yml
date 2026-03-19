@@ -1,0 +1,11 @@
+services:
+  tts:
+    container_name: wyoming_xtts
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: wyoming-xtts-orin
+    runtime: nvidia
+    restart: unless-stopped
+    ports:
+      - "10200:10200"

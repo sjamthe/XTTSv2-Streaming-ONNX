@@ -1,0 +1,12 @@
+__pycache__
+.venv
+# Ignore ML Models and Weights
+xtts_onnx/
+*.onnx
+*.bin
+*.pth
+
+# Ignore Voice Reference Audio (Privacy)
+audio_ref/
+*.wav
+*.mp3
