@@ -31,6 +31,13 @@ tags:
   - perceiver encoder
 license: apache-2.0
 base_model: coqui/XTTS-v2
+
+---
+# wyoming server for XTTSv2 for Home Assistant
+
+This repository builds on extends [XTTSv2 Streaming ONNX](https://huggingface.co/pltobing/XTTSv2-Streaming-ONNX) by adding a Wyoming server for Home Assistant.
+Modifications also include use of GPU on Orin Nano and creation of docker container for the same.
+
 ---
 
 # XTTSv2 Streaming ONNX
