@@ -5,8 +5,6 @@ MODEL_DIR="xtts_onnx"
 # Replace this with the exact Hugging Face URL you used
 HF_REPO_URL="https://huggingface.co/pltobing/XTTSv2-Streaming-ONNX"
 
-echo "🦜 Starting Parrot Model Setup..."
-
 # 1. Create the directory if it doesn't exist
 mkdir -p $MODEL_DIR
 
